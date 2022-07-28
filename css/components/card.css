@@ -22,3 +22,47 @@
   width: 125px;
   height: 125px;
 }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  #cards {
+    width: 700px;
+  }
+
+  #how-it-works-container {
+    width: 700px;
+  }
+
+  .card {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  #cards {
+    width: 500px;
+  }
+
+  #how-it-works-container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  #cards {
+    width: 300px;
+    display: block;
+  }
+
+  #how-it-works-container {
+    width: 300px;
+  }
+
+  .card {
+    margin: 10px;
+  }
+
+  /* comment */
+}
