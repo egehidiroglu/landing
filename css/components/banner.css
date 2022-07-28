@@ -1,0 +1,39 @@
+#banner {
+  background-image: url(../../images/vecteezy_background-flatvector2-background_fr0121.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+#banner-container {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+#title {
+  color: white;
+}
+
+#description {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+}
+
+#banner-btn {
+  color: white;
+  background-color: #efb450;
+  /* border: 1px solid #f0aa30; */
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 0 auto;
+}
+
+#banner-btn:hover {
+  transition: ease 3s;
+  background-image: url(../../images/animation-hyper-speed.gif);
+  background-size: cover;
+  background-position: 50%;
+  border: 1px solid white;
+}

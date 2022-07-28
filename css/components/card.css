@@ -1,0 +1,24 @@
+#cards {
+  display: flex;
+  justify-content: space-between;
+  margin: auto auto 30px;
+  width: 900px;
+  align-content: center;
+}
+
+.card {
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+}
+
+#how-it-works-container {
+  text-align: center;
+  margin: auto;
+}
+
+.icons {
+  width: 125px;
+  height: 125px;
+}

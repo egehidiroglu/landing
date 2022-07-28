@@ -1,0 +1,27 @@
+.footer {
+  background-color: #0A3374;
+  text-align: center;
+  padding: 40px;
+}
+
+.svg {
+  color: #D72480;
+  width: 35px;
+  height: 35px;
+  padding: 0 10px 0 0;
+}
+
+#esa {
+  opacity: 1;
+  width: 55px;
+}
+
+#icons {
+  display: block;
+  text-align: center;
+  padding: 15px;
+}
+
+#genius {
+  color: #6B6C6C
+}
